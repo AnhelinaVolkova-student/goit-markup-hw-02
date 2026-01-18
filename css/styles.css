@@ -6,51 +6,23 @@ body{
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
-p{
-    color:#434455;
-}
+
 
 ul, ol{
     list-style: none;
 }
 
-a{
-    text-decoration: none;
-    color: #2E2F42;
-}
-
-h3{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-}
-
-h2{
-    font-size: 36px;
-    font-weight: bold;
-    line-height: 1.11;
-}
-
 /*Header*/
-.logo-web{
-    color: #4D5AE5; /*Iris*/
-}
-
-.logo {
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.166;
-    letter-spacing: 3%;
-}
-
-nav {
-    color: #434455; /*Slate*/
+nav a {
+    color: #2E2F42;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 nav a:hover{
@@ -61,16 +33,21 @@ nav a:focus{
     text-decoration: underline;
 }
 
-address{
+address a{
     font-style: normal;
     color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 address a:hover{
     color: #404BBF;
 }
 
-address:focus{
+address a:focus{
     text-decoration: underline;
 }
 
@@ -79,7 +56,7 @@ address:focus{
     background-color: #2E2F42;
 }
 
-h1{
+.main-page h1{
     color: #FFFFFF;
     font-size: 56px;
     font-weight: 700;
@@ -94,8 +71,8 @@ button{
     cursor: pointer;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 4%;
-    font-weight: 400;
+    letter-spacing: 0.04em;
+    font-weight: 500;
 }
 
 button:hover{
@@ -107,17 +84,57 @@ button:focus {
 }
 
 /*Our Features*/
+.our-features h2 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+.our-features h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.our-features p {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
 
 /*Our Team*/
 .our-team{
     background-color: #F4F4FD;
 }
 
+.our-team p {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+
+.our-team h2 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
 .our-team-list li{
     background-color: #FFFFFF;
 }
 
-.our-team h3{
+.our-team h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
@@ -126,8 +143,27 @@ button:focus {
 }
 
 /*Our Portfolio*/
-.our-portfolio h2{
+.our-portfolio h2 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
+}
+
+.our-portfolio h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.our-portfolio p {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.02em;
 }
 
 /*Footer*/
@@ -137,12 +173,32 @@ footer{
 
 footer p{
     color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.02em;
 }
 
+/*Logo*/
 .footer-logo{
     color: #F4F4FD;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
+    letter-spacing: 0.03em;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+}
+
+.logo-web {
+    color: #4D5AE5;
+    /*Iris*/
 }
