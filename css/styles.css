@@ -9,14 +9,8 @@ body{
     letter-spacing: 0.02em;
 }
 
-
-
-ul, ol{
-    list-style: none;
-}
-
 /*Header*/
-nav a {
+.navigation-link {
     color: #2E2F42;
     font-weight: 500;
     font-size: 16px;
@@ -25,15 +19,16 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover{
+.navigation-link:hover{
     color: #404BBF;
 }
 
-nav a:focus{
+.navigation-link:focus{
     text-decoration: underline;
+    color: #404BBF;
 }
 
-address a{
+.nav-address-link{
     font-style: normal;
     color: #434455;
     font-weight: 400;
@@ -43,12 +38,13 @@ address a{
     text-decoration: none;
 }
 
-address a:hover{
+.nav-address-link:hover{
     color: #404BBF;
 }
 
-address a:focus{
+.nav-address-link:focus{
     text-decoration: underline;
+    color: #404BBF;
 }
 
 /*Main page*/
@@ -62,6 +58,7 @@ address a:focus{
     font-weight: 700;
     text-align: center;
     line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 button{
@@ -124,6 +121,7 @@ button:focus {
     font-weight: bold;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .our-team-list li{
@@ -187,6 +185,8 @@ footer p{
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.03em;
+    text-decoration: none;
+    line-height: 1.167;
 }
 
 .logo {
@@ -196,9 +196,11 @@ footer p{
     font-size: 18px;
     line-height: 1.167;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .logo-web {
     color: #4D5AE5;
-    /*Iris*/
+    text-decoration: none;
+    line-height: 1.167;
 }
