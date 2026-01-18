@@ -56,7 +56,7 @@ ul {
     background-color: #2E2F42;
 }
 
-.main-page h1{
+.main-page-title{
     color: #FFFFFF;
     font-size: 56px;
     font-weight: 700;
@@ -85,21 +85,21 @@ ul {
 }
 
 /*Our Features*/
-.our-features h2 {
+.our-features-title {
     font-size: 36px;
     font-weight: bold;
     line-height: 1.11;
     letter-spacing: 0.02em;
 }
 
-.our-features h3 {
+.our-features-main-text{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
-.our-features p {
+.our-features-text {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -112,15 +112,16 @@ ul {
     background-color: #F4F4FD;
 }
 
-.our-team p {
+.our-team-text {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
-.our-team h2 {
+.our-team-name {
     font-size: 36px;
     font-weight: bold;
     line-height: 1.11;
@@ -132,7 +133,7 @@ ul {
     background-color: #FFFFFF;
 }
 
-.our-team h3 {
+.our-team-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -140,12 +141,8 @@ ul {
     text-align: center;
 }
 
-.our-team p{
-    text-align: center;
-}
-
 /*Our Portfolio*/
-.our-portfolio h2 {
+.our-portfolio-title {
     font-size: 36px;
     font-weight: bold;
     line-height: 1.11;
@@ -153,14 +150,14 @@ ul {
     text-align: center;
 }
 
-.our-portfolio h3 {
+.our-portfolio-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
-.our-portfolio p {
+.our-portfolio-text {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -201,6 +198,7 @@ ul {
     line-height: 1.167;
     letter-spacing: 0.03em;
     text-decoration: none;
+    color: #2E2F42;
 }
 
 .logo-web {
