@@ -1,10 +1,12 @@
 /*Global styles*/
 body{
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF; /*White*/
     color: #2E2F42; /*Navy Blue*/
     font-size: 16px;
     line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 2%;
 }
 
 p{
@@ -43,6 +45,7 @@ h2{
     font-weight: 700;
     font-size: 18px;
     line-height: 1.166;
+    letter-spacing: 3%;
 }
 
 nav {
@@ -54,12 +57,21 @@ nav a:hover{
     color: #404BBF;
 }
 
-nav a:active{
+nav a:focus{
     text-decoration: underline;
+}
+
+address{
+    font-style: normal;
+    color: #434455;
 }
 
 address a:hover{
     color: #404BBF;
+}
+
+address:focus{
+    text-decoration: underline;
 }
 
 /*Main page*/
@@ -80,9 +92,17 @@ button{
     cursor: pointer;
     color: #FFFFFF;
     cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 4%;
+    font-weight: 400;
 }
 
 button:hover{
+    background-color: #404BBF;
+}
+
+button:focus {
     background-color: #404BBF;
 }
 
@@ -93,7 +113,22 @@ button:hover{
     background-color: #F4F4FD;
 }
 
+.our-team-list li{
+    background-color: #FFFFFF;
+}
+
+.our-team h3{
+    text-align: center;
+}
+
+.our-team p{
+    text-align: center;
+}
+
 /*Our Portfolio*/
+.our-portfolio h2{
+    text-align: center;
+}
 
 /*Footer*/
 footer{
