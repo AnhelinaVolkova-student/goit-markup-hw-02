@@ -1,0 +1,113 @@
+/*Global styles*/
+body{
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    background-color: #FFFFFF; /*White*/
+    color: #2E2F42; /*Navy Blue*/
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+p{
+    color:#434455;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.11;
+}
+
+/*Header*/
+.logo-web{
+    color: #4D5AE5; /*Iris*/
+}
+
+.logo {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.166;
+}
+
+nav {
+    color: #434455; /*Slate*/
+    font-weight: 500;
+}
+
+nav a:hover{
+    color: #404BBF;
+}
+
+nav a:active{
+    text-decoration: underline;
+}
+
+address a:hover{
+    color: #404BBF;
+}
+
+/*Main page*/
+.main-page{
+    background-color: #2E2F42;
+}
+
+h1{
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.07;
+}
+
+button{
+    background-color: #4D5AE5;
+    cursor: pointer;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #404BBF;
+}
+
+/*Our Features*/
+
+/*Our Team*/
+.our-team{
+    background-color: #F4F4FD;
+}
+
+/*Our Portfolio*/
+
+/*Footer*/
+footer{
+    background-color: #2E2F42;
+}
+
+footer p{
+    color: #F4F4FD;
+}
+
+.footer-logo{
+    color: #F4F4FD;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
