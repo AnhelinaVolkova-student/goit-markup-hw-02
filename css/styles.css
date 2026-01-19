@@ -9,12 +9,12 @@ body{
     letter-spacing: 0.02em;
 }
 
-ul {
+ul{
     list-style: none;
 }
 
 /*Header*/
-.navigation-link {
+.navigation-link{
     color: #2E2F42;
     font-weight: 500;
     font-size: 16px;
@@ -80,12 +80,12 @@ ul {
     background-color: #404BBF;
 }
 
-.main-page-button:focus {
+.main-page-button:focus{
     background-color: #404BBF;
 }
 
 /*Our Features*/
-.our-features-title {
+.our-features-title{
     font-size: 36px;
     font-weight: bold;
     line-height: 1.11;
@@ -99,7 +99,7 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.our-features-text {
+.our-features-text{
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -112,7 +112,7 @@ ul {
     background-color: #F4F4FD;
 }
 
-.our-team-title {
+.our-team-text{
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -121,7 +121,7 @@ ul {
     text-align: center;
 }
 
-.our-team-name {
+.our-team-title{
     font-size: 36px;
     font-weight: bold;
     line-height: 1.11;
@@ -133,7 +133,7 @@ ul {
     background-color: #FFFFFF;
 }
 
-.our-team-name {
+.our-team-name{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -142,7 +142,7 @@ ul {
 }
 
 /*Our Portfolio*/
-.our-portfolio-title {
+.our-portfolio-title{
     font-size: 36px;
     font-weight: bold;
     line-height: 1.11;
@@ -150,14 +150,14 @@ ul {
     text-align: center;
 }
 
-.our-portfolio-name {
+.our-portfolio-name{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
-.our-portfolio-text {
+.our-portfolio-text{
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -190,7 +190,7 @@ ul {
     line-height: 1.167;
 }
 
-.logo {
+.logo{
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -201,7 +201,7 @@ ul {
     color: #2E2F42;
 }
 
-.logo-web {
+.logo-web{
     color: #4D5AE5;
     text-decoration: none;
     line-height: 1.167;
