@@ -14,7 +14,7 @@ ul{
 }
 
 /*Header*/
-.navigation-link{
+.navigation-link, .navigation-link-studio{
     color: #2E2F42;
     font-weight: 500;
     font-size: 16px;
@@ -23,11 +23,15 @@ ul{
     text-decoration: none;
 }
 
-.navigation-link:hover{
+.navigation-link-studio:hover{
     color: #404BBF;
 }
 
-.navigation-link:focus{
+.navigation-link-studio:focus{
+    color: #404BBF;
+}
+
+.navigation-link-studio:active {
     text-decoration: underline;
     color: #404BBF;
 }
@@ -47,7 +51,6 @@ ul{
 }
 
 .nav-address-link:focus{
-    text-decoration: underline;
     color: #404BBF;
 }
 
